@@ -86,6 +86,9 @@ h3 {
   justify-content: space-between;
   gap: 0.4rem 1.5rem;
   padding: 1.2rem var(--gutter);
+  max-width: var(--max);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
 }
 .top a { text-decoration: none; }
 .top a:hover { text-decoration: underline; }
